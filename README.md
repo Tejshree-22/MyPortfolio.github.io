@@ -1,13 +1,3 @@
-ReadMe file
-
-# 👩‍💻 Tejshree Bakore — Software Test Engineer (SDET)
-
-📍 Bellevue, WA 
-📧 TejshreeBakore@gmail.com 
-📞 +1 (425) 436-8865 
-🔗 [LinkedIn](https://www.linkedin.com/in/tejshree-bakore-62599416/) 
-💻 [GitHub](https://github.com/Tejshree-22)
-
 ---
 
 ## 🚀 About Me
