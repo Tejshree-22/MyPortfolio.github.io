@@ -1,6 +1,6 @@
 ---
 
-## 🚀 About Me
+🚀 About Me
 
 Results-driven **Software Test Engineer with 7+ years of experience** in Manual and Automation Testing. Specialized in **Selenium (Java), API Testing, and Agile methodologies**.
 
@@ -12,7 +12,7 @@ I bring a strong mix of **technical expertise, analytical thinking, and collabor
 
 ---
 
-## 🛠️ Technical Skills
+🛠️ Technical Skills
 
 ### 🔹 Test Automation
 - Selenium WebDriver 
@@ -40,7 +40,7 @@ I bring a strong mix of **technical expertise, analytical thinking, and collabor
 
 ---
 
-## 💼 Professional Experience
+ 💼 Professional Experience
 
 ### **Deloitte — Software Engineer in Test** 
 📅 Oct 2021 – Oct 2024 
@@ -81,7 +81,7 @@ I bring a strong mix of **technical expertise, analytical thinking, and collabor
 
 ---
 
-## 🎓 Education
+🎓 Education
 
 🎓 **Master of Computer Applications (MCA)** 
 National Institute of Technology, Durgapur — 2017 
@@ -91,7 +91,7 @@ Acropolis Institute of Technology, Indore — 2014
 
 ---
 
-## 🏆 Achievements & Certifications
+🏆 Achievements & Certifications
 
 - 🥇 AIR 458 — NIMCET 2014 
 - 🏅 Spot Awards (3 consecutive years at Deloitte) 
@@ -100,7 +100,7 @@ Acropolis Institute of Technology, Indore — 2014
 
 ---
 
-## 🌱 Strengths
+ 🌱 Strengths
 
 - Strong analytical & critical thinking 
 - Excellent communication & collaboration 
@@ -109,14 +109,14 @@ Acropolis Institute of Technology, Indore — 2014
 
 ---
 
-## 📌 Portfolio & Work
+📌 Portfolio & Work
 
 Explore my projects and automation work here: 
 👉 https://github.com/Tejshree-22 
 
 ---
 
-## 🤝 Let's Connect
+🤝 Let's Connect
 
 I'm open to **SDET / QA Automation roles** and exciting opportunities to build scalable, high-quality systems.
 
