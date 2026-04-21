@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tejshree Bakore | SDET</title>
+  <title>Tejshree Bakore</title>
 
   <style>
     :root {
@@ -19,8 +19,12 @@
       --card: rgba(0, 0, 0, 0.05);
     }
 
+html {
+  scroll-behavior: smooth;
+}
+
     body {
-      margin: 0;
+      margin-left: 220px;
       font-family: 'Segoe UI', sans-serif;
       background: var(--bg);
       color: var(--text);
@@ -60,7 +64,7 @@
     }
 
     .btn:hover {
-    transform: scale(1.08);
+      transform: scale(1.08);
      box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
     }
 
@@ -132,11 +136,98 @@
   color: var(--accent);
 }
 
-	  .center-text {
+.center-text {
   text-align: center;
 }
 
-  </style>
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 220px;
+  height: 100vh;
+
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+  background: var(--card);
+  backdrop-filter: blur(12px);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--accent);
+  margin-bottom: 0px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-links li {
+  margin: 15px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  font-size: 1rem;
+  display: block;
+  padding: 8px 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background: rgba(56,189,248,0.2);
+  color: var(--accent);
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  body {
+    margin-left: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-links li {
+    margin: 5px;
+  }
+}
+
+.nav-links a:hover {
+  transform: translateX(5px);
+}
+
+
+
+
+
+
+
+ </style>
+
+
 </head>
 
 
@@ -144,6 +235,25 @@
 <body>
 
 <div class="toggle" onclick="toggleMode()">🌙 Toggle</div>
+
+<nav class="navbar">
+  <div class="logo">Explore</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#metrics">Metrics</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+	<li><a href="#education">Education</a></li>
+	<li><a href="#achievementscertifications">Achievements</a></li>
+	
+    <li><a href="#philosophy">Philosophy</a></li>
+    <li><a href="#projects">Projects</a></li>
+	<li><a href="#blogs">Blogs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
 
 <header>
   <h1>Tejshree Bakore</h1>
@@ -153,10 +263,10 @@
 	<a href="Resume.pdf" download class="btn">📂 Download Resume</a>
   	<a href="https://github.com/Tejshree-22" class="btn">🐙 GitHub</a>
   	<a href="https://www.linkedin.com/in/tejshree-bakore-62599416/" class="btn">💼  LinkedIn</a>
-	<a href="https://linkwithtinks.wordpress.com/" class="btn">📝 WordPress</a>
+	
 </header>
 
-<section>
+<section id="about">
   <h2>About Me</h2>
   <p>
     QA Engineer with 7+ years of experience in automation and manual testing.
@@ -165,7 +275,7 @@
 </section>
 
 
-<section>
+<section id="metrics">
   <h2>Impact Metrics</h2>
 
   <div class="metrics">
@@ -186,7 +296,8 @@
   </div>
 </section>
 
-<section>
+
+<section id="skills">
   <h2>Skills</h2>
   <div class="skills">
     <span>Selenium</span>
@@ -195,11 +306,11 @@
     <span>API Testing</span>
     <span>Postman</span>
     <span>SQL</span>
-	<span>HTML</span>
-	<span>CSS</span>
+   <span>HTML</span>
+   <span>CSS</span>
     <span>JIRA</span>
     <span>Git</span>
-	<span>Agile</span>
+  <span>Agile</span>
   </div>
 </section>
 
@@ -222,7 +333,7 @@ Java | C++ |
 SQL |
 HTML | CSS | Bootstrap
 
-<h4>🔹 Testing Expertise 🔹 </h4>
+<h4>🔹 Testing Expertise 🔹</h4>
 Manual & Automation Testing |
 API Testing  |
 Functional, Regression, Smoke, Sanity  |
@@ -233,7 +344,7 @@ Agile/Scrum
 </section>
 
 
-<section>
+<section id="experience">
   <h2>Experience</h2>
 
   <div class="card">
@@ -271,7 +382,7 @@ Agile/Scrum
 
  <div class="card">
     <h3>Opsfinity Technologies</h3>
-	<h5>💎Software Tester |📅 Oct 2017 – May 2018 | 🌐 Bangalore, India </h5>
+	<h5>💎Software Tester |📅 Oct 2017 – May 2018 | 🌐 Mumbai, India </h5>
     <p>
 <li>Reported 60+ defects with a 95% resolution rate</li>
 <li>Maintained test documentation with 95% coverage </li>
@@ -280,10 +391,10 @@ Agile/Scrum
   </div>
 </section>
 
-<section>
+<section id="education">
   <h2>Education</h2>
 	<div class="card">
-    <p>
+    	<p>
 	
 	<h4 class="center-text"> National Institute of Technology, Durgapur — 2017</h4>
 	<p style="text-align: center;"> 🎓 Master of Computer Applications (MCA) </p>
@@ -296,10 +407,10 @@ Agile/Scrum
 </section>
 
 
-<section>
+<section id="achievementscertifications">
   <h2>Achievements & Certifications</h2>
 	<div class="card">
-   	<p>
+    	<p>
 		<p style="text-align: center;"> 🔹AIR 458 — NIMCET 2014 </p>
 		<p style="text-align: center;"> 🔹Spot Awards (3 consecutive years at Deloitte) </p>
 		<p style="text-align: center;"> 🔹Agile Methodology Certification </p>
@@ -310,7 +421,7 @@ Agile/Scrum
 </section>
 
 
-<section>
+<section id="softskills">
   <h2>Soft skills</h2>
 	<div class="card">
     	<p>
@@ -323,7 +434,7 @@ Agile/Scrum
 </section>
 
 
-<section>
+<section id="philosophy">
   <h2>Testing Philosophy</h2>
 
   <div class="card">
@@ -350,7 +461,7 @@ Agile/Scrum
 </section>
 
 
-<section>
+<section id="projects">
   <h2>Projects</h2>
 
   <div class="card">
@@ -366,7 +477,44 @@ Agile/Scrum
  
 </section>
 
-<section>
+
+
+
+<section id="blogs">
+  <h2>Blogs</h2>
+
+
+
+  <div class="card">
+    <h3>Visit my technical blog on Medium </h3>
+
+    <p>Where engineering meets communication. A collection of Technical tutorials, exploring software engineering, development, software testing experience through structured documentation.
+</p>
+
+	<a href="https://medium.com/@knowledge.enlightens22" class="btn">📝 Medium </a>
+  </div>
+
+
+
+
+  <div class="card">
+    <h3>Visit my personal blog on Wordpress</h3>
+
+    <p>Where words become art. A collection of raw Poetic snapshots, exploring modern identity, nature, and the human experience through structured and free verse. A blend of introspection, imagery, and bold observation.
+</p>
+
+	<a href="https://linkwithtinks.wordpress.com/" class="btn">📝 WordPress</a>
+  </div>
+
+ 
+</section>
+
+
+
+
+
+
+<section id="contact">
   <h2>Contact</h2>
   <p>
 📧 Email: TejshreeBakore@gmail.com  
@@ -430,6 +578,42 @@ window.addEventListener("scroll", () => {
     triggered = true;
   }
 });
+
+
+
+
+function toggleMenu() {
+  document.querySelector(".nav-links").classList.toggle("active");
+}
+
+// Smooth scroll
+document.querySelectorAll('.nav-links a').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+
+
+
+
+
+
+
+    // Close menu on mobile
+    document.querySelector(".nav-links").classList.remove("active");
+  });
+});
+
+
+
+
+
+
+
+
+
+
 
 
 </script>
